@@ -27,6 +27,7 @@ import packer.ProductTest;
     DepotTest.class,
     ProductTest.class,
     CustomerTest.class,
+    //Adding the new Test Classes
     BoxTest.class,
     ManifestTest.class,
     PackerTest.class    
