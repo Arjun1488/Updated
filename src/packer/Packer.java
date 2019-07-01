@@ -14,7 +14,7 @@ public class Packer {
         Box b = null;
         while (!m.isEmpty()) { // repeat until all items are packed
             if (b == null) {
-                b = new Box(c,d);  //customer and depot
+                b = new Box(c,d);  //customer and depot was kept in wrong order
             }
             Product prodToAdd = m.getHeaviestUnder(b.remainingCapacity());
             if (prodToAdd == null) {

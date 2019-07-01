@@ -7,9 +7,12 @@
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import packer.AddressTest;
+import packer.BoxTest;
 import packer.CoordinatesTest;
 import packer.CustomerTest;
 import packer.DepotTest;
+import packer.ManifestTest;
+import packer.PackerTest;
 import packer.ProductTest;
 
 
@@ -23,7 +26,10 @@ import packer.ProductTest;
     AddressTest.class,
     DepotTest.class,
     ProductTest.class,
-    CustomerTest.class
+    CustomerTest.class,
+    BoxTest.class,
+    ManifestTest.class,
+    PackerTest.class    
 })
 
 public class TestSuite {
