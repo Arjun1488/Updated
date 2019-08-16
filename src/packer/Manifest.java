@@ -28,6 +28,8 @@ public class Manifest {
     public void addProduct(Product p, int quantity) {
         if (quantities.containsKey(p)) {
             quantities.put(p,quantities.get(p)*quantity);
+            
+            //if Could't add to Set
         }
         else {
             quantities.put(p,quantity);
@@ -64,7 +66,7 @@ public class Manifest {
                 return p;
             }
         }
-        return null;
+        return null; //Return null
     }
     
     public boolean isEmpty() {

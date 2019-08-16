@@ -7,9 +7,9 @@ package packer;
 public class Box {
     
     
-    private Manifest contents;
-    private Customer customer;
-    private Depot depot; 
+    private Manifest contents; //for contents
+    private Customer customer; //for customers
+    private Depot depot;  //for depot
 
     
     // changed from public
@@ -68,7 +68,7 @@ public class Box {
     }
     
     public boolean canFit(Product p, int quantity) {
-        return (p.getWeight() * quantity) < 40;
+        return (p.getWeight() * quantity) < 40; //quantity less then 40
     }
     
     public double remainingCapacity() {

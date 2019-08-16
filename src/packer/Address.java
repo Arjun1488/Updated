@@ -24,10 +24,11 @@ public class Address {
     @Override
     public String toString() {
         return 
-                street + "\n" +
-                suburb + "\n" +
-                city + "\n" +
-                postcode;
+                street + "\n" + //For street
+                suburb + "\n" + // Suburb in address
+                city + "\n" + //City where they live
+                postcode; //Post code of address
+        // For a proper address
     }
     /**
      * @return the coordinates

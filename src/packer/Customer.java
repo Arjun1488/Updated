@@ -19,7 +19,7 @@ public class Customer {
     }
     
     public void addAddress(Address address) {
-        this.addresses.add(address);
+        this.addresses.add(address); //Add address
     }
     
     public String getName() {

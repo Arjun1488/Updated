@@ -40,7 +40,7 @@ public class Example {
         System.out.println(customer);
 
         Manifest manifest = new Manifest();
-        manifest.addProduct(new Product("Hammer", 3, false, false), 1);
+        manifest.addProduct(new Product("Hammer", 3, false, false), 1); 
         manifest.addProduct(new Product("Nails", 1, false, false), 12);
         manifest.addProduct(new Product("Ladder", 15, false, false), 2);
         manifest.addProduct(new Product("Saw", 5, false, false), 1);
